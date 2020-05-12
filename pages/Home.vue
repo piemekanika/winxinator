@@ -1,5 +1,12 @@
 <template>
-  <router-view></router-view>
+  <h1>testing the speed</h1>
+  
+  <p>Edit ./App.vue to test hot module replacement (HMR).</p>
+  
+  <p>
+    <span>Count is: {{ count }}</span>
+    <button @click="count++">increment</button>
+  </p>
 </template>
 
 <script>
